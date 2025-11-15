@@ -28,7 +28,7 @@ def ask_ai(text):
     except Exception as e:
         return f"An error occurred: {e}"
 
-st.title("Simple AI Chatbot")
+st.title("Simple AI Chatbot by Satyam")
 
 # Initialize chat history
 if "messages" not in st.session_state:
